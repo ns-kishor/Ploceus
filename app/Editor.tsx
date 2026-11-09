@@ -4056,8 +4056,8 @@ export default function Editor({ initialLang, onReady }: { initialLang: Lang; on
               ) : (
                 <div
                   onClick={() => !leftOpen && setLeftOpen(true)}
-                  title="Ploceus philippinus"
-                  aria-label="Ploceus philippinus"
+                  title="Ploceus"
+                  aria-label="Ploceus"
                   style={{ width: 40, height: 40, display: "grid", placeItems: "center", cursor: leftOpen ? "default" : "pointer" }}
                 >
                   <Logo size={32} color={p.primary} glyph={p.onPrimary} />

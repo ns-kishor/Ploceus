@@ -5,13 +5,13 @@ const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_ORIGIN ?? "https://lnkiai.github.io"),
-  title: "Ploceus philippinus",
-  applicationName: "Ploceus philippinus",
+  title: "Ploceus",
+  applicationName: "Ploceus",
   alternates: { canonical: `${BASE}/` },
   description:
     "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts. / Material 3 Expressive の画面をブラウザで組み立てて、そのままプロンプトに。",
   openGraph: {
-    title: "Ploceus philippinus",
+    title: "Ploceus",
     description: "Design Material 3 Expressive screens, link them, preview them, and copy a prompt for your AI coding tool.",
     images: [`${BASE}/og.png`],
     type: "website",

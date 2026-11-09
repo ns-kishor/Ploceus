@@ -74,14 +74,14 @@ const validFrame = (frame: unknown) =>
 export const isProject = (value: unknown): value is Doc =>
   isRecord(value) && Array.isArray(value.groups) && Array.isArray(value.frames) && value.groups.every(validGroup) && value.frames.every(validFrame) && (value.platform === undefined || isPlatform(value.platform)) && (value.promptOptions === undefined || (Array.isArray(value.promptOptions) && value.promptOptions.every((o) => typeof o === "string")));
 
-/** the file name a project is saved under: ploceus-philippinus, followed by the app's name when it has one */
+/** the file name a project is saved under: ploceus, followed by the app's name when it has one */
 export const projectFileName = (doc: Doc) => {
   const name = doc.title
     .trim()
     .replace(/[\\/:*?"<>|]+/g, " ")
     .replace(/\s+/g, " ")
     .trim();
-  return name ? `ploceus-philippinus ${name}.json` : "ploceus-philippinus.json";
+  return name ? `ploceus ${name}.json` : "ploceus.json";
 };
 
 /** hands the document to the browser as a JSON download */

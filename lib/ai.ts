@@ -241,7 +241,7 @@ export function popHistory<V extends string, H extends string>(current: string |
  *  The answer is the document itself; a link would be pointless here. */
 export async function draftDesign(s: AiSettings, guide: string, idea: string, lang: Lang, signal?: AbortSignal): Promise<Doc> {
   const system = [
-    "You draft Ploceus philippinus designs. Follow the guide below exactly.",
+    "You draft Ploceus designs. Follow the guide below exactly.",
     "Reply with the JSON document only: no share link, no prose, no markdown fence, no explanation.",
     "",
     guide,
