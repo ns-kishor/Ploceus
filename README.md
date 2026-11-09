@@ -1,16 +1,16 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/readme/banner-dark.png" />
-    <img src="docs/readme/banner-light.png" width="800" alt="M3E Canvas" />
+    <img src="docs/readme/banner-light.png" width="800" alt="Ploceus philippinus" />
   </picture>
 </p>
 
 <p align="center">
-  <strong>Sketch Material 3 Expressive screens in the browser, link them, tap through them, and copy a prompt for your AI coding tool.</strong>
+  <strong>Ploceus philippinus: Sketch Material 3 Expressive screens in the browser, link them, tap through them, and copy a prompt for your AI coding tool.</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/lnkiai/m3e-canvas/stargazers"><picture><source media="(max-width: 767px)" srcset="https://img.shields.io/github/stars/lnkiai/m3e-canvas?style=flat-square&logo=github&logoColor=white&color=6750A4&labelColor=1D1B20" /><img alt="GitHub stars" src="https://img.shields.io/github/stars/lnkiai/m3e-canvas?style=for-the-badge&logo=github&logoColor=white&color=6750A4&labelColor=1D1B20" /></picture></a>
+  <a href="https://github.com/ns-kishor/Ploceus/stargazers"><picture><source media="(max-width: 767px)" srcset="https://img.shields.io/github/stars/ns-kishor/Ploceus?style=flat-square&logo=github&logoColor=white&color=6750A4&labelColor=1D1B20" /><img alt="GitHub stars" src="https://img.shields.io/github/stars/ns-kishor/Ploceus?style=for-the-badge&logo=github&logoColor=white&color=6750A4&labelColor=1D1B20" /></picture></a>
   <a href="https://github.com/sponsors/lnkiai"><picture><source media="(max-width: 767px)" srcset="https://img.shields.io/github/sponsors/lnkiai?style=flat-square&logo=githubsponsors&logoColor=white&color=7D5260&labelColor=1D1B20" /><img alt="Sponsors" src="https://img.shields.io/github/sponsors/lnkiai?style=for-the-badge&logo=githubsponsors&logoColor=white&color=7D5260&labelColor=1D1B20" /></picture></a>
   <a href="LICENSE"><picture><source media="(max-width: 767px)" srcset="https://img.shields.io/badge/license-MIT-625B71?style=flat-square&labelColor=1D1B20" /><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-625B71?style=for-the-badge&labelColor=1D1B20" /></picture></a>
   <br />
@@ -29,7 +29,7 @@
 
 <p align="center">Sketch the screens, tap through the flow, copy the prompt, and let your AI coding tool build the app. (<a href="docs/readme/demo.mp4">mp4</a>)</p>
 
-M3E Canvas is a free, open-source sketchpad for app screens made of real Material 3 Expressive parts. It runs entirely in your browser: no account, no server, nothing to install. What you sketch becomes a precise prompt that any AI coding tool that takes one, such as Claude Code, Codex, Gemini CLI or Cursor, can turn into a working app.
+Ploceus philippinus is a free, open-source sketchpad for app screens made of real Material 3 Expressive parts. It runs entirely in your browser: no account, no server, nothing to install. What you sketch becomes a precise prompt that any AI coding tool that takes one, such as Claude Code, Codex, Gemini CLI or Cursor, can turn into a working app.
 
 <p align="center"><a href="https://lnkiai.github.io/m3e-canvas/"><img src="docs/readme/ui/open-en.png" height="56" alt="Open the app" /></a></p>
 

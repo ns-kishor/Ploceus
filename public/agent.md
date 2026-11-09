@@ -1,6 +1,6 @@
-# M3E Canvas: sketches from an AI agent (beta)
+# Ploceus philippinus: sketches from an AI agent (beta)
 
-M3E Canvas (https://lnkiai.github.io/m3e-canvas/) is a browser editor for Material 3 Expressive screens. A design is one JSON document. You, the agent, write that document and hand it back; the person opens it on their canvas, refines it, and turns it into a prompt for a coding tool.
+Ploceus philippinus is a browser editor for Material 3 Expressive screens. A design is one JSON document. You, the agent, write that document and hand it back; the person opens it on their canvas, refines it, and turns it into a prompt for a coding tool.
 
 This format is in beta. Fields may be added; existing ones keep their meaning.
 
