@@ -451,7 +451,7 @@ const LEFT_TABS: { key: LeftTab; icon: string; title: "parts" | "layers" | "colo
   { key: "ai", icon: "auto_awesome", title: "ai" },
 ];
 
-export default function Editor({ initialLang, onReady }: { initialLang: Lang; onReady?: () => void }) {
+export default function Editor({ initialLang, onReady, onBackHome }: { initialLang: Lang; onReady?: () => void; onBackHome?: () => void }) {
   const onReadyRef = useRef(onReady);
   onReadyRef.current = onReady;
   /* ---------- document ---------- */
@@ -4055,10 +4055,13 @@ export default function Editor({ initialLang, onReady }: { initialLang: Lang; on
                 <IconBtn icon="left_panel_open" p={p} on onClick={() => setLeftOpen(true)} title={t("openPanel", lang)} size={40} />
               ) : (
                 <div
-                  onClick={() => !leftOpen && setLeftOpen(true)}
-                  title="Ploceus"
-                  aria-label="Ploceus"
-                  style={{ width: 40, height: 40, display: "grid", placeItems: "center", cursor: leftOpen ? "default" : "pointer" }}
+                  onClick={() => {
+                    if (onBackHome) onBackHome();
+                    else if (!leftOpen) setLeftOpen(true);
+                  }}
+                  title="Ploceus (Go to Home)"
+                  aria-label="Ploceus (Go to Home)"
+                  style={{ width: 40, height: 40, display: "grid", placeItems: "center", cursor: "pointer" }}
                 >
                   <Logo size={32} color={p.primary} glyph={p.onPrimary} />
                 </div>
